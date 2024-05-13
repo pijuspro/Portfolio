@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #2c4084 24%, #3b3992 49%, #202682 75%, #0d0732 100%);
+}
+
+ul {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+li {
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #2c4084 24%, #3b3992 49%, #202682 75%, #0d0732 100%);
+}
+
+a {
+    width: 100px;
+    height: 60px;
+    display: block;
+    padding-top: 15px;
+    text-decoration: none;
+    color: burlywood;
+}
+
+.help {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+}
+
+.help a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align-last: center;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+
+header {
+    width: 100%;
+    height: 110vh;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #2c4084 24%, #3b3992 49%, #202682 75%, #0d0732 100%);
+    font-family: monospace;
+    text-align: center;
+    padding: 5px;
+    background-image: url(!.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+h1 {
+    margin: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+    margin: 20px;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 40px;
+    background-image: url(pexels-bich-tran-1635974.jpg);
+}
+
+div {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    background-color: white;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #2c4084 24%, #3b3992 49%, #202682 75%, #0d0732 100%);
+
+}
+.layer{
+    width: 70%;
+    height: auto;
+    outline: 2px dashed red;
+    margin-top: 150px;
+   background-color: rgba(0, 53, 104, 0.5);
+    background-image:none;
+}
+.foto1 {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pexels-athena-2582931.jpg);
+
+
+
+}
+
+.foto2 {
+    background-image: url(pexels-cocarinne-6446709.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto3 {
+    background-image: url(pexels-%E6%B4%8B%E6%A6%A4-%E9%83%AD-2399840.jpg);
+    background-size: cover;
+}
+
+.foto4 {
+    background-image: url(pexels-athena-2582937.jpg);
+    background-size: cover;
+}
+
+h2 {
+
+    background-image: linear-gradient(213deg, #000000 0%, #3d0078 24%, #195f86 49%, #1a1574 75%, #000000 100%);
+
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    background-color: black;
+    
+}
+
+footer p {
+    text-align: center;
+    margin-top:40px;
+    
+    
+}
+
+.geras {
+    margin-bottom: 40px;
+}
+
+
+
